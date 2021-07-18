@@ -1,0 +1,17 @@
+welcome = ("Welcome to the game")
+print (welcome)
+correct = " you got it genius “
+secret_number = 8
+guess="" 
+while guess != secret_number:
+  guess = input("What do you think it is the right number? ")
+  guess = int(guess)
+  if guess > secret_number:
+    print("it is lower")
+    
+  elif guess < secret_number:
+      print (" it is higher")
+      
+      
+else:
+  print( correct)
